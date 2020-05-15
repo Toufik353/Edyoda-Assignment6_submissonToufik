@@ -99,11 +99,10 @@ const cards = [
    var text2 = document.createTextNode(card_description);
     para1.appendChild(text2);
    cardDiv2.appendChild(para1);
-  cardDiv0.appendChild(cardDiv2);
-  
     cardDiv1.appendChild(cardDiv2);
-   
-    return cardDiv0;}
+    cardDiv0.appendChild(cardDiv2);
+    return cardDiv0;
+  }
     
   
   
